@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-init binarysearch(int arr[], int size, int key) {
+int binarysearch(int arr[], int size, int key) {
     int start = 0;
     int end = size - 1;
     while (start <= end) {
